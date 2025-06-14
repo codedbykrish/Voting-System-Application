@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VoterRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp"
+            android:padding="20dp">
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/editTextEmail"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Email"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/editTextPassword"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:hint="Password"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:hint="Confirm Password"/>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Register"
+                android:id="@+id/buttonRegister"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                app:cornerRadius = "30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LoginRedirectText"
+                android:text="Already an user? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/purple_200"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+<!--    <EditText-->
+<!--        android:id="@+id/editTextEmail"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:height="49dp"-->
+<!--        android:autofillHints=""-->
+<!--        android:hint="Email Address"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:minHeight="48dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonScanQR"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="79dp"-->
+<!--        android:text="Scan QR Code"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/buttonRegister"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonRegister"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="19dp"-->
+<!--        android:layout_marginBottom="132dp"-->
+<!--        android:text="Register"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/buttonScanQR" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextPassword"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:height="48dp"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword|time"-->
+<!--        android:minHeight="48dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.47"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextFullName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:height="48dp"-->
+<!--        android:hint="Full Name"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.485"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextDateOfBirth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:height="48dp"-->
+<!--        android:hint="Date Of Birth"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextFullName" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextConstituency"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:height="48dp"-->
+<!--        android:hint="Consituency"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextDateOfBirth" />-->
+
+</ScrollView>
